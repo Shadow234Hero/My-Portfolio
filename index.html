@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pratyush Kumar Daspattnaik</title>
+<meta name="description" content="Engineer, striker, guitarist, builder. Portfolio of Pratyush Kumar Daspattnaik.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0906'/%3E%3Ctext x='50' y='68' font-family='Arial' font-size='60' font-weight='900' fill='%23ff5a1f' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- grain / vignette overlay -->
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- progress rail -->
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<!-- side nav -->
+<nav class="side-nav" id="sideNav" aria-label="Section navigation">
+  <a href="#hero" class="node active" data-target="hero"><span class="node-sym">Or</span><span class="node-label">Origin</span></a>
+  <a href="#build" class="node" data-target="build"><span class="node-sym">Bd</span><span class="node-label">Build</span></a>
+  <a href="#circuit" class="node" data-target="circuit"><span class="node-sym">Ct</span><span class="node-label">Circuit</span></a>
+  <a href="#pitch" class="node" data-target="pitch"><span class="node-sym">Pt</span><span class="node-label">Sportsperson</span></a>
+  <a href="#string" class="node" data-target="string"><span class="node-sym">St</span><span class="node-label">String</span></a>
+</nav>
+
+<button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open navigation">
+  <span></span><span></span><span></span>
+</button>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#hero" data-target="hero">01 · Origin</a>
+  <a href="#build" data-target="build">02 · Build</a>
+  <a href="#circuit" data-target="circuit">03 · Circuit</a>
+  <a href="#pitch" data-target="pitch">04 · Sportsperson</a>
+  <a href="#string" data-target="string">05 · String</a>
+</div>
+
+<!-- ============ HERO / ORIGIN ============ -->
+<section class="hero" id="hero">
+  <div class="hero-pin">
+    <canvas id="rotCanvas" class="rot-canvas"></canvas>
+    <div class="hero-vignette"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow mono">COMPOSITE FILE&nbsp;&nbsp;·&nbsp;&nbsp;SUBJECT&nbsp;001&nbsp;&nbsp;·&nbsp;&nbsp;DELHI, IN</p>
+      <h1 class="hero-name">
+        <span>PRATYUSH</span>
+        <span>KUMAR</span>
+        <span class="outline">DASPATTNAIK</span>
+      </h1>
+      <p class="hero-summary">Engineering student who builds systems, plays up front on the pitch, and taught himself the rest — <span class="ember-text">every setback so far has just been fuel.</span></p>
+
+      <div class="hero-scroll-cue mono">
+        <span class="scroll-track"><span class="scroll-dot"></span></span>
+        SCROLL TO ASSEMBLE
+      </div>
+    </div>
+
+    <div class="hero-frame-counter mono" id="frameCounter">FRAME 000 / 101 — 360° CAPTURE</div>
+  </div>
+</section>
+
+<!-- ============ CHAPTER 01 — BUILD ============ -->
+<section class="chapter" id="build" data-accent="ember">
+  <div class="chapter-inner">
+
+    <header class="chapter-head">
+      <div class="element-tag">
+        <span class="tag-sym">Bd</span>
+        <span class="tag-num">01</span>
+      </div>
+      <div class="chapter-titles">
+        <p class="eyebrow mono">ACADEMICS &amp; ENGINEERING</p>
+        <h2 class="chapter-title">THE BUILD</h2>
+      </div>
+    </header>
+
+    <div class="chapter-grid">
+      <div class="chapter-copy">
+        <p class="lede">A 97th‑percentile score in JEE Mains proved the ceiling was high — missing JEE Advanced proved it wasn't the whole story. Both landed in the same year health problems forced a full stop on football. What followed was a rebuild, from the ground up, now underway at <strong>Delhi Technological University</strong>.</p>
+        <p> the coursework runs through Engineering Mathematics, Physics and Electrical Engineering — the fundamentals underneath everything built since. Outside the syllabus, that foundation turns into shipped projects and competition entries:</p>
+
+        <ul class="project-list">
+          <li>
+            <span class="proj-name">GestiCore</span>
+            <span class="proj-desc">A gesture-recognition platform for computer control and home automation, built for the Jaipur Cybrathon.</span>
+          </li>
+          <li>
+            <span class="proj-name">SignVise</span>
+            <span class="proj-desc">An accessibility tool designed to bridge sign language and digital interfaces.</span>
+          </li>
+          <li>
+            <span class="proj-name">AQI Tracker</span>
+            <span class="proj-desc">Air-quality monitoring project built with hackathon team Alpha P.H.A. — alongside Harshit, Abhishek and Atal — at Buildathon 1.0.</span>
+          </li>
+          <li>
+            <span class="proj-name">Realtime Clone Bot</span>
+            <span class="proj-desc">Air-quality monitoring project built with hackathon team Alpha P.H.A. — alongside Harshit, Abhishek and Atal — at Buildathon 1.0.</span>
+          </li>
+        </ul>
+
+        <p>The target sits at the top of the industry: <strong>Google, Microsoft</strong> — earned through the same discipline that closed the JEE Advanced gap, not around it.</p>
+      </div>
+
+      <div class="chapter-stats mono">
+        <div class="stat-card">
+          <span class="stat-num">97<small>%ile</small></span>
+          <span class="stat-label">JEE Mains</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">03</span>
+          <span class="stat-label">Flagship builds</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">02</span>
+          <span class="stat-label">Hackathons entered</span>
+        </div>
+        <div class="stat-card wide">
+          <span class="stat-num">Career</span>
+          <span class="stat-label">Engineering Mathematics · Physics · Electrical Engineering</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery two-up">
+      <figure class="gallery-item">
+        <img src="assets/gallery/career_expo.jpg" alt="Pratyush at a technology expo, lanyard on, mid-conversation." loading="lazy">
+        <figcaption class="mono">FIELD NOTE — TECH EXPO FLOOR</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="assets/gallery/journey_campus.jpg" alt="Pratyush walking across campus at night with a backpack." loading="lazy">
+        <figcaption class="mono">FIELD NOTE — LATE CAMPUS WALK</figcaption>
+      </figure>
+    </div>
+
+    <div class="letterbox" data-rotate="-1.4">
+      <p class="letter-tag mono">FILE NOTE 01</p>
+      <p class="letter-text">Missed the exam that was supposed to define the year. Kept the discipline that got him 97th percentile anyway. That's the whole method — the scoreboard resets, the work ethic doesn't.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHAPTER 02 — CIRCUIT ============ -->
+<section class="chapter alt" id="circuit" data-accent="steel">
+  <div class="chapter-inner">
+
+    <header class="chapter-head">
+      <div class="element-tag">
+        <span class="tag-sym">Ct</span>
+        <span class="tag-num">02</span>
+      </div>
+      <div class="chapter-titles">
+        <p class="eyebrow mono">GAME DEV, DESIGN &amp; CODE</p>
+        <h2 class="chapter-title">THE CIRCUIT</h2>
+      </div>
+    </header>
+
+    <div class="chapter-grid reverse">
+      <div class="chapter-stats mono">
+        <div class="stat-card">
+          <span class="stat-num">01</span>
+          <span class="stat-label">Solo game in dev</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">05+</span>
+          <span class="stat-label">Skills self-taught</span>
+        </div>
+        <div class="stat-card wide">
+          <span class="stat-num">CV / ML</span>
+          <span class="stat-label">Modular computer-vision &amp; AI/ML systems</span>
+        </div>
+      </div>
+
+      <div class="chapter-copy">
+        <p class="lede">Software is only one layer. Over the past year the toolkit expanded sideways on purpose — video editing, drawing, and full solo game development sit next to the core engineering, each picked up independently and pushed until it held up on its own.</p>
+
+        <div class="feature-panel">
+          <p class="feature-tag mono">IN DEVELOPMENT</p>
+          <h3 class="feature-title">PaCI‑FIca</h3>
+          <p>A high-tier, narrative-driven video game built entirely solo — protagonist, world, and systems all handled from scratch. The bar it's aimed at: standing shoulder to shoulder with genre giants, not underneath them.</p>
+        </div>
+
+        <p>The engineering backbone runs deeper than any one project — modular AI/ML pipelines and computer-vision systems built to be reused, not one-offs. Even downtime gets treated like a build problem: tuning an AMD Radeon integrated GPU to run GTA V, Mortal Kombat X and the Call of Duty: Modern Warfare series properly, studying story-driven worlds the way a builder studies a system, not just a player passing time.</p>
+      </div>
+    </div>
+
+    <div class="gallery one-up">
+      <figure class="gallery-item wide">
+        <img src="assets/gallery/career_laptop.jpg" alt="Pratyush working on a laptop, focused on code." loading="lazy">
+        <figcaption class="mono">FIELD NOTE — BUILD SESSION, IN PROGRESS</figcaption>
+      </figure>
+    </div>
+
+    <div class="letterbox" data-rotate="1.1">
+      <p class="letter-tag mono">FILE NOTE 02</p>
+      <p class="letter-text">Nobody assigned the game dev, the drawing, or the CV pipelines. Picked up because the toolkit felt incomplete without them — then kept because incomplete stopped being acceptable.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHAPTER 03 — PITCH ============ -->
+<section class="chapter" id="pitch" data-accent="gold">
+  <div class="chapter-inner">
+
+    <header class="chapter-head">
+      <div class="element-tag">
+        <span class="tag-sym">Pt</span>
+        <span class="tag-num">03</span>
+      </div>
+      <div class="chapter-titles">
+        <p class="eyebrow mono">FOOTBALL — STRIKER</p>
+        <h2 class="chapter-title">THE PITCH</h2>
+      </div>
+    </header>
+
+    <div class="chapter-grid">
+      <div class="chapter-copy">
+        <p class="lede">Health issues forced a complete stop on football at the exact moment everything else was already under pressure. Coming back wasn't optional — it was the first proof that the rebuild was real.</p>
+        <p>Now training as a dynamic, active <strong>striker</strong>, with a mindset that's shifted from chasing personal glory to simply being ready when it matters. The current target: breaking into competitive Delhi leagues, with trials set on <strong>Hindustan Football Club</strong>.</p>
+        <p>Conditioning off the pitch backs the game on it — strength and mobility work built to hold up over 90 minutes, not just look good in a mirror.</p>
+      </div>
+
+      <div class="chapter-stats mono">
+        <div class="stat-card">
+          <span class="stat-num">ST</span>
+          <span class="stat-label">Position — Striker</span>
+        </div>
+        <div class="stat-card wide">
+          <span class="stat-num">HFC</span>
+          <span class="stat-label">Trials targeted — Hindustan Football Club</span>
+        </div>
+        <div class="stat-card wide">
+          <span class="stat-num">DELHI</span>
+          <span class="stat-label">Competitive league push</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery two-up">
+      <figure class="gallery-item">
+        <img src="assets/gallery/football_jersey.jpg" alt="Pratyush wearing a football jersey, mid-motion." loading="lazy">
+        <figcaption class="mono">FIELD NOTE — MATCHDAY KIT</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="assets/gallery/football_physique.jpg" alt="Pratyush's athletic training physique." loading="lazy">
+        <figcaption class="mono">FIELD NOTE — OFF-PITCH CONDITIONING</figcaption>
+      </figure>
+    </div>
+
+    <div class="letterbox" data-rotate="-0.9">
+      <p class="letter-tag mono">FILE NOTE 03</p>
+      <p class="letter-text">The pause wasn't a choice. The comeback is. Every session logged since is the difference between the two.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHAPTER 04 — STRING ============ -->
+<section class="chapter alt" id="string" data-accent="ember">
+  <div class="chapter-inner">
+
+    <header class="chapter-head">
+      <div class="element-tag">
+        <span class="tag-sym">St</span>
+        <span class="tag-num">04</span>
+      </div>
+      <div class="chapter-titles">
+        <p class="eyebrow mono">MUSIC — GUITAR</p>
+        <h2 class="chapter-title">THE STRING</h2>
+      </div>
+    </header>
+
+    <div class="chapter-grid reverse">
+      <div class="chapter-stats mono">
+        <div class="stat-card">
+          <span class="stat-num">SELF</span>
+          <span class="stat-label">Taught, no formal lessons</span>
+        </div>
+        <div class="stat-card wide">
+          <span class="stat-num">DAILY</span>
+          <span class="stat-label">Practice, treated like training</span>
+        </div>
+      </div>
+
+      <div class="chapter-copy">
+        <p class="lede">Guitar joined the toolkit the same way everything else did this past year — no teacher, no shortcut, just repetition until the hands stopped fighting the chords.</p>
+        <p>It's the one discipline here with no deadline, no leaderboard, no trial to make. Which is exactly why it stayed — proof the rebuild wasn't only about winning, some of it was just about building something worth keeping.</p>
+      </div>
+    </div>
+
+    <div class="gallery one-up">
+      <figure class="gallery-item wide portrait">
+        <img src="assets/gallery/guitar_dark.jpg" alt="Pratyush playing acoustic guitar, low light." loading="lazy">
+        <figcaption class="mono">FIELD NOTE — LATE PRACTICE, LOW LIGHT</figcaption>
+      </figure>
+    </div>
+
+    <div class="letterbox" data-rotate="1.3">
+      <p class="letter-tag mono">FILE NOTE 04</p>
+      <p class="letter-text">No stage booked yet. Doesn't matter — the point was never the audience, it was proving the hands could learn something new on command.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="eyebrow mono">END OF FILE</p>
+    <h2 class="footer-line">STILL BEING <span class="outline">ASSEMBLED.</span></h2>
+    <p class="footer-sub">Delhi Technological University · Delhi, India — currently mid-build, on the pitch, and mid-progression on six strings.</p>
+    <p class="footer-credit mono">PRATYUSH KUMAR DASPATTNAIK — COMPOSITE FILE 001</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
